@@ -5,8 +5,535 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aguafiel</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/2f3116ebd7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- NAVBARRRRRR -->
+    <header>
+        <div class="logo"><img src="./assets/Logo.svg" alt=""></div>
+
+        <div class="menu-toggle" id="menu-toggle">
+         ☰
+        </div>
+
+        <nav id="navbar">
+            <ul>
+                
+                <li class="dropdown">
+                    <a href="#">Quiénes somos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Hogar</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Empresa</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Manantiales</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Manantiales</a></li>
+                        <li><a href="#">Calidad Aquaservice</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Café</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Sostenibilidad</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">App</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+        <div class="right-actions">
+            <span class="lang">PT | EN</span>
+            <a href="#" class="btn-info">INFÓRMATE</a>
+            <a href="#" class="client-area">Área de Cliente</a>
+        </div>
+    </header>
+
+    <!-- PORTADAAAA -->
+    <section class="hero">
+        <div class="hero-content">
+            <h3>Disfruta de la comodidad de que te llevemos el agua a tu casa con este dispensador. Pide tu oferta ya y... ¡Vive cómoda, vive comodón!</h3>
+            <h1>3 Meses de servicio Gratis + Cafetera</h1>
+            <a href="#" class="btn-blue">¡Pídelo ahora!</a>
+            <p>o llámanos al 900 855 400</p>
+        </div>
+    </section>
+
+    <!-- SSOBRE -->
+    <section class="about">
+        <div class="about-left">
+            <h2>Sobre <br> Aquaservice</h2>
+            <p>Disfruta de una forma cómoda y sostenible de beber agua en tu casa o en tu empresa.</p>
+            <a href="#" class="btn-red">Saber más</a>
+        </div>
+
+        <div class="about-right">
+            <div class="card">
+                <img src="./assets/section-sobre/icon-equipo.svg" alt="Somos equipo">
+                <h3>Somos equipo</h3>
+                <p>Ni una, ni dos. Cerca de 3.000 personas para ofrecerte el mejor servicio con una sonrisa.</p>
+                <a href="#" class="btn-outline">Únete al equipo</a>
+            </div>
+            <div class="card">
+                <img src="./assets/section-sobre/icon-sostenibilidad.svg" alt="Sostenibilidad">
+                <h3>Sostenibilidad</h3>
+                <p>Un gesto sostenible. Fácil para ti, mejor para todos. Incluido el planeta.</p>
+                <a href="#" class="btn-outline">Lo que hacemos</a>
+            </div>
+            <div class="card">
+                <img src="./assets/section-sobre/icon-circular.svg" alt="Economía circular">
+                <h3>Economía circular</h3>
+                <p>Recogemos. Reutilizamos. Reciclamos. No generamos residuos. Cero residuos.</p>
+                <a href="#" class="btn-outline">Te lo enseñamos</a>
+            </div>
+            <div class="card">
+                <img src="./assets/section-sobre/icon-dispensador.svg" alt="Dispensador de agua">
+                <h3>Dispensador de agua</h3>
+                <p>Te prestamos nuestro dispensador y te llevamos las botellas. Así de fácil. Así de cómodo.</p>
+                <a href="#" class="btn-outline">Descúbrelo</a>
+            </div>
+        </div>
+    </section>
+
+     <!-- AQUASERVICE A DOMICILIO -->
+    <section class="delivery-section">
+        <div class="delivery-container">
+            <h2 class="delivery-title">Aquaservice a domicilio</h2>
+            <p class="delivery-text">
+            Para ti. Para tu familia. Para tu personal. Con Aquaservice no tendrás que preocuparte de nada.
+            Cada cuatro semanas, te llevamos tu pedido a domicilio.<br>
+            Del manantial a donde nos necesites. Tú, simplemente, disfruta.
+            </p>
+
+            <div class="delivery-grid">
+                <!-- Card 1 -->
+                <div class="delivery-card">
+                    <img src="./assets/section-delivery/hogar.png" alt="Para hogar">
+                    <div class="overlay">
+                        <span>Para hogar</span>
+                        <div class="icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="delivery-card">
+                    <img src="./assets/section-delivery/empresa.png" alt="Para empresas">
+                    <div class="overlay">
+                        <span>Para empresas</span>
+                        <div class="icon">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO -->
+    <section class="promo-sostenibilidad">
+        <div class="promo-banner">
+            <h2>3 Meses de Servicio + Cafetera</h2>
+            <a href="#" class="btn-white">Pídelo ahora</a>
+        </div>
+
+        <div class="sostenibilidad">
+            <div class="sostenibilidad-content">
+                <h1>Somos sostenibles</h1>
+                <p>
+                    En Aquaservice llevamos el compromiso con el planeta en nuestro ADN. 
+                    Descubre las acciones que nos convierten en una opción sostenible de beber agua, 
+                    incluso en los grandes eventos deportivos y culturales.
+                </p>
+                <a href="#" class="btn-red">Saber más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN MANANTIALES -->
+    <section class="manantiales">
+        <div class="manantiales-header">
+            <div class="text-content">
+                <h2>Manantiales</h2>
+                <p>
+                    Cinco manantiales, en plena Naturaleza, nos brindan su origen 100% agua mineral natural 
+                    para lograr, gracias a la más avanzada tecnología, una bebida ligera y suave al paladar. 
+                    Siempre igual. Siempre equilibrada. Siempre perfecta. Descúbrela.
+                </p>
+            </div>
+            <a href="#" class="btn-red">Saber más</a>
+        </div>
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-1.jpg" alt=""></div>
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-2.jpg" alt=""></div>
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-3.jpg" alt=""></div>
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-4.jpg" alt=""></div>
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-5.jpg" alt=""></div>
+                <div class="slide"><img src="./assets/section-slider-manantials/slider-img-6.jpg" alt=""></div>
+            </div>
+            <div class="slider-controls">
+                <i class="fa-solid fa-circle-chevron-left prev"></i>
+                <i class="fa-solid fa-circle-chevron-right next"></i>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Experiencias -->
+    <section class="experiencias">
+        <div class="title-exp">
+            <h2>Experiencias compartidas</h2>
+        </div>
     
+        <div class="slider-container-opinion">
+            <button class="prev-op">&#10094;</button>
+    
+            <div class="slider-opinion">
+                <div class="cards">
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B; margin-right: -4px;"></i>
+                        </div>
+                        <h3>Raquel Ribera</h3>
+                        <p class="p1">15 junio 2025</p>
+                        <p class="p2">Me gusta mucho el agua y la comodidad de recibirla en casa es total. Muchas gracias.
+                        </p>
+                        <p class="p3">Raquel Ribera</p>
+                    </div>
+                </div>
+            </div>
+            <button class="next-op">&#10095;</button>
+        </div>
+        
+        <div class="dots"></div>
+    </section>
+
+
+     <!-- CERTIFICADOS -->
+      <section class="certificado">
+        <h2>Nuestros certificados y sellos de calidad</h2>
+
+        <div class="slider-container-cert">
+
+            <button class="prev">❮</button>
+
+            <div class="slider-wrapper">
+                <div class="certificados-slider">
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/objetivos.png" alt="">
+                    <span>Objeetivos de Desarrollo Sostenibl</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/aenor-seguridad.png" alt="">
+                    <span>AENOR Seguridad y Salud en el trabajo</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/aenor-estrategia.png" alt="">
+                    <span>AENOR Estrategia 100% circular</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/IFS-LOGISTIC.png" alt="">
+                    <span>IFS Logistic</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/aenor-carbono.png" alt="">
+                    <span>AENOR Carbono Neutro</span>
+                </div>
+                
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/aenor-residuo.png" alt="">
+                    <span>AENOR Residuo Cero</span>
+                </div>
+                
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/iso9001.svg" alt="">
+                    <span>ISO 9001</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/iso140001.svg" alt="">
+                    <span>ISO 14001</span>
+                </div>
+
+                <div class="slide-certificado">
+                    <img src="./assets/section-certificados/ifs_Food.png" alt="">
+                    <span>IFS Food</span>
+                </div>
+            </div>
+                
+            </div>
+            
+
+             <button class="next">❯</button>
+        </div>
+    </section>
+    <!-- FQA SECTION -->
+      <section class="faq-section">
+        <div class="faq-container">
+            <h2>Preguntas<br>frecuentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Qué beneficios tiene un dispensador de agua?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Cada cuánto reparte Aquaservice?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Y si me quedo sin agua antes de mi siguiente reparto?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Cuántos litros de agua tiene una botella de Aquaservice?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Cómo activar el agua más fría en Aquaservice?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        ¿Como contactar con Aquaservice?
+                        <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos laborum qui voluptatibus molestiae nulla mollitia aut, libero ratione deleniti. Error optio exercitationem fugiat officiis blanditiis mollitia praesentium id excepturi nemo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <!-- FOOTER -->
+       <section class="footer"> 
+         <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./assets/Logo.svg" alt="">
+            </div>
+         
+
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Aquaservice,<br>tu empresa de agua</h3>
+                    <ul>
+                        <li><a href="">Quiénes somos</a></li>
+                        <li><a href="">Manantiales</a></li>
+                        <li><a href="">Proveedor de agua embotellada</a></li>
+                        <li><a href="">Aquaservice precios</a></li>
+                        <li><a href="">Opiniones Aquaservice</a></li>
+                        <li><a href="">Descargar App Aquaservice</a></li>
+                        <li><a href="">Área del cliente</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Agua para casa</h3>
+                    <ul>
+                        <li><a href="">Agua a domicilio</a></li>
+                        <li><a href="">Dispensador de agua</a></li>
+                        <li><a href="">Agua embotellada</a></li>
+                        <li><a href="">Bidones de agua</a></li>
+                        <li><a href="">Botellines de agua mineral</a></li>
+                        <li><a href="">Botellas térmicas</a></li>
+                        <li><a href="">Café</a></li>
+                        <li><a href="">Máquinas de Café</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Agua para empresas</h3>
+                    <ul>
+                        <li><a href="">Fuentes de agua para empresa</a></li>
+                        <li><a href="">Máquinas de agua para oficinas</a></li>
+                        <li><a href="">Botellines de agua</a></li>
+                        <li><a href="">Vasos de papel</a></li>
+                        <li><a href="">Café para empresas</a></li>
+                        <li><a href="">Fuentes de red</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Aquaservice empleo</h3>
+                    <ul>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                    <li>Infórmate sin compromiso</li>
+                    <li>900 855 400</li>
+                    <li>963 000 333 (Atención al Cliente)</li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Actualidad</h3>
+                    <ul>
+                    <li><a href="#">Sala de prensa</a></li>
+                    <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+         </div>
+         <div class="footer-bottom">
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+       </section>
 </body>
+
+<script src="./js/script.js"></script>
+<script src="./js//slider-manantial.js"></script>
+<script src="./js/slider-certificado.js"></script>
+<script src="./js/faq-section.js"></script>
+<script src="./js/opinions-slider.js"></script>
 </html>
