@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aguafiel</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/2 (1).png" type="image/x-icon">
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/2f3116ebd7.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <!-- NAVBARRRRRR -->
-    <header>
+    <header id="inicio">
         <div class="logo"><img src="./assets/logo.png" alt=""></div>
 
         <div class="menu-toggle" id="menu-toggle">
@@ -22,39 +22,24 @@
             <ul>
                 
                 <li class="dropdown">
-                    <a href="#">Inicio</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Opción 1</a></li>
-                        <li><a href="#">Opción 2</a></li>
-                    </ul>
+                    <a href="" data-target="inicio">Inicio</a>
+                    
                 </li>
                 <li class="dropdown">
-                    <a href="#">Productos</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Opción 1</a></li>
-                        <li><a href="#">Opción 2</a></li>
-                    </ul>
+                    <a href="" data-target="products">Productos</a>
+                    
                 </li>
                 <li class="dropdown">
-                    <a href="#">Nosotros</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Opción 1</a></li>
-                        <li><a href="#">Opción 2</a></li>
-                    </ul>
+                    <a href="" data-target="nosotros">Nosotros</a>
+                   
                 </li>
                 <li class="dropdown">
-                    <a href="#">Ubicaciones</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Manantiales</a></li>
-                        <li><a href="#">Calidad Aquaservice</a></li>
-                    </ul>
+                    <a href="" data-target="ubicaciones">Ubicaciones</a>
+                   
                 </li>
                 <li class="dropdown">
-                    <a href="#">Contacto</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Opción 1</a></li>
-                        <li><a href="#">Opción 2</a></li>
-                    </ul>
+                    <a href="" data-target="contacto">Contacto</a>
+                   
                 </li>
                 
                 
@@ -70,19 +55,16 @@
     <!-- PORTADAAAA -->
     <section class="hero">
         <div class="hero-content">
-            <h3>Disfruta de la comodidad de que te llevemos el agua a tu casa con este dispensador. Pide tu oferta ya y... ¡Vive cómoda, vive comodón!</h3>
-            <h1>3 Meses de servicio Gratis + Cafetera</h1>
-            
-            <p>o llámanos al 900 855 400</p>
+            <h1>Aguafiel: 50 años de pureza y frescura que acompañan la vida del norte del Perú.</h1>
         </div>
     </section>
 
     <!-- PRESENTACIONES -->
-    <section class="about">
+    <section class="about" id="products">
         <div class="about-left">
             <h2>Nuestras <br> Presentaciones</h2>
             <p>Disfruta de una forma cómoda y sostenible de beber agua en tu casa o en tu empresa.</p>
-            <a href="#" class="btn-red">Saber más</a>
+            
             <div class="img-prods">
                 <img src="./assets/section-presentaciones/6.png" alt="">
             </div>
@@ -92,7 +74,7 @@
         <div class="about-right">
             <div class="card">
                 <img src="./assets/section-presentaciones/3.png" alt="Somos equipo">
-                <div class="expandable btn-outline">
+                <div class="btn-outline">
                     <div class="card-header">
                         Botella 0.650 ML
                     </div>
@@ -101,7 +83,7 @@
             </div>
             <div class="card">
                 <img src="./assets/section-presentaciones/4.png" alt="Sostenibilidad">
-                <div class="expandable btn-outline">
+                <div class="btn-outline">
                     <div class="card-header">
                         Botella 2.5 LT
                     </div>
@@ -142,7 +124,7 @@
      
 
     <!-- PROMO -->
-    <section class="promo-sostenibilidad">
+    <section class="promo-sostenibilidad" id="nosotros">
         
 
         <div class="sostenibilidad">
@@ -160,7 +142,68 @@
 
     <!-- SECCIÓN MANANTIALES -->
     <section class="manantiales">
-        <div class="manantiales-header">
+        <div class="barra"  id="sobre-nosotros">
+        <div class="barra-container"> 
+            <div class="columna">
+              <div class="icon" id="icon-barra">
+                <img src="./assets/experience.png" alt="">
+              </div>
+              <div class="columna-texto">
+                <div class="hijo1">
+                  <h1><span class="counter" data-target=""></span>Icon</h2>
+                </div>
+                <div class="hijo2">
+                  <span>Calidad</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="columna" id="product-counter">
+              <div class="icon" id="icon-barra">
+                <img src="./assets/sku.png" alt="">
+              </div>
+              <div class="columna-texto">
+                <div class="hijo1">
+                  <h1><span class="counter" data-target="">Icon</span></h1>
+                </div>  
+                <div class="hijo2">
+                  <span>100% Trujillanos</span>
+                </div>
+              </div>          
+            </div>
+
+            <div class="columna">
+              <div class="icon" id="icon-barra">
+                <img src="./assets/factory.png" alt="">
+              </div>
+              <div class="columna-texto">
+                <div class="hijo1">
+                  <h1><span class="counter" data-target="">Icon</span></h1>
+                </div>       
+                <div class="hijo2">
+                  <span>Versatilidad</span>
+                </div>
+              </div>        
+            </div>
+            
+            <div class="columna">
+              <div class="icon" id="icon-barra">
+                <img src="./assets/customer.png" alt="">
+              </div>
+              <div class="columna-texto">
+                <div class="hijo1">
+                  <h1><span class="counter" data-target="">Icon</span></h1>
+                </div>
+            
+                <div class="hijo2">
+                  <span>Confianza y Respaldo</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+        <div class="manantiales-header" id="ubicaciones">
             <div class="text-content">
                 <h2>Encuéntranos en...</h2>
                 <p>
@@ -169,12 +212,12 @@
             </div>
             
         </div>
-
+        
         <div class="slider-container">
              <div class="delivery-grid">
                 <!-- Card 1 -->
                 <div class="delivery-card">
-                    <img src="./assets/section-ubicacion/ubicacion-example.jpg" alt="Para hogar">
+                    <img src="./assets/section-ubicacion/trujillo.jpg" alt="Para hogar">
                     <div class="overlay">
                         <span>Trujillo</span>
                         <div class="icon">
@@ -185,7 +228,7 @@
 
                 <!-- Card 2 -->
                 <div class="delivery-card">
-                    <img src="./assets/section-ubicacion/ubicacion-example.jpg" alt="Para empresas">
+                    <img src="./assets/section-ubicacion/chimbote.jpg" alt="Para empresas">
                     <div class="overlay">
                         <span>Chimbote</span>
                         <div class="icon">
@@ -227,6 +270,48 @@
                     </div>
                     <div class="opinion">
                         <img src="./assets/section-auspicios/activacion6.jpg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion7.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion8.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion9.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion10.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion11.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion12.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion13.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion14.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion15.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion16.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion17.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion18.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion19.jpeg" alt="" draggable="false">
+                    </div>
+                    <div class="opinion">
+                        <img src="./assets/section-auspicios/activacion20.jpeg" alt="" draggable="false">
                     </div>
                 </div>
             </div>
@@ -284,7 +369,7 @@ tendrás que preocuparte por nada. Tú solo disfrútalo.
     </section>
       
       <!-- FOOTER -->
-       <section class="footer"> 
+       <section class="footer" id="contacto"> 
          <div class="footer-container">
             <div class="footer-logo">
                 <img src="./assets/logo.png" alt="">
@@ -293,83 +378,53 @@ tendrás que preocuparte por nada. Tú solo disfrútalo.
 
             <div class="footer-columns">
                 <div class="footer-column">
-                    <h3>Aquaservice,<br>tu empresa de agua</h3>
+                    
                     <ul>
-                        <li><a href="">Quiénes somos</a></li>
-                        <li><a href="">Manantiales</a></li>
-                        <li><a href="">Proveedor de agua embotellada</a></li>
-                        <li><a href="">Aquaservice precios</a></li>
-                        <li><a href="">Opiniones Aquaservice</a></li>
-                        <li><a href="">Descargar App Aquaservice</a></li>
-                        <li><a href="">Área del cliente</a></li>
+                        <li><a href="" data-target="inicio">Inicio</a></li>
+                        <li><a href="" data-target="products">Productos</a></li>
+                        <li><a href="" data-target="nosotros">Nosotros</a></li>
+                        <li><a href="" data-target="ubicaciones">Ubicaciones</a></li>
+                        <li><a href="" data-target="contacto">Contacto</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
-                    <h3>Agua para casa</h3>
                     <ul>
-                        <li><a href="">Agua a domicilio</a></li>
-                        <li><a href="">Dispensador de agua</a></li>
-                        <li><a href="">Agua embotellada</a></li>
-                        <li><a href="">Bidones de agua</a></li>
-                        <li><a href="">Botellines de agua mineral</a></li>
-                        <li><a href="">Botellas térmicas</a></li>
-                        <li><a href="">Café</a></li>
-                        <li><a href="">Máquinas de Café</a></li>
+                        <p class="contact"><i class="fa-solid fa-phone"></i> <span data-i18n="footer.contact.phone">Trujillo 949 174 165 </span></p>
+                        <p class="contact"><i class="fa-solid fa-phone"></i> <span data-i18n="footer.contact.phone">Valle 995 951 148</span></p>
+                        <p class="contact" id="mailfooter"><i class="fa-solid fa-envelope"></i><a id="mailfooter" href="mailto:ventas@aguafiel.com.pe"><span data-i18n="footer.contact.email"> ventas@aguafiel.com.pe</span> </a></p>
+                        <p class="contact" id="perulocs"><i class="fa-solid fa-location-dot"></i><span data-i18n="footer.contact.location"> Planta: Pj. Larrea 255 Lote. 09 (Sector Ex Fundo Larrea), Moche - Trujillo.</span></p>
                     </ul>
                 </div>
 
                 <div class="footer-column">
-                    <h3>Agua para empresas</h3>
-                    <ul>
-                        <li><a href="">Fuentes de agua para empresa</a></li>
-                        <li><a href="">Máquinas de agua para oficinas</a></li>
-                        <li><a href="">Botellines de agua</a></li>
-                        <li><a href="">Vasos de papel</a></li>
-                        <li><a href="">Café para empresas</a></li>
-                        <li><a href="">Fuentes de red</a></li>
-                    </ul>
+                    
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.facebook.com/aguafiel.pe/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/aguafiel.pe/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/@aguafiel.pe"><i class="fa-brands fa-tiktok"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/@TuAguafiel"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
                 </div>
 
-                <div class="footer-column">
-                    <h3>Aquaservice empleo</h3>
-                    <ul>
-                    <li><a href="#">Trabaja con nosotros</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Contacto</h3>
-                    <ul>
-                    <li>Infórmate sin compromiso</li>
-                    <li>900 855 400</li>
-                    <li>963 000 333 (Atención al Cliente)</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Actualidad</h3>
-                    <ul>
-                    <li><a href="#">Sala de prensa</a></li>
-                    <li><a href="#">Blog</a></li>
-                    </ul>
-                </div>
+                
             </div>
 
             
          </div>
          <div class="footer-bottom">
-                <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <div>
+                    <p>&copy; 2025 Aguafiel. Todos los derechos reservados.</p>
                 </div>
-            </div>
+                <div>
+                    <p class="postea-sello">Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por <a href="https://postealab.com" target="_blank">PosteaLab</a></p>
+                </div>
+        </div>
        </section>
 </body>
 
 <script src="./js/script.js"></script>
 <script src="./js/section-presentaciones.js"></script>
 <script src="./js/opinions-slider.js"></script>
+<script src="./js/redireccion.js"></script>
 </html>

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  let visibleCards = 3; // será dinámico
+  let visibleCards = 4; // será dinámico
   let totalCards = cards.length;
   let maxIndex = 0;
   let currentIndex = 0;
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function setupSizes() {
     // Definir visibleCards según el ancho de la ventana
-    visibleCards = window.innerWidth <= 768 ? 1 : 3;
+    visibleCards = window.innerWidth <= 768 ? 1 : 4;
 
     const style = getComputedStyle(track);
     gap = parseFloat(style.gap) || 18;
