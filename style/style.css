@@ -606,9 +606,13 @@ nav ul li a {
 }
 
 .opinion img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: auto;
 }
 
 .stars {
