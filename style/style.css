@@ -117,7 +117,7 @@ nav ul li a {
 
 /* PORTADAAA */
 .hero {
-    background: url('../assets/bg-portada.jpg') no-repeat center center/cover;
+    background: url('../assets/bg-portada-vide.mp4') no-repeat center center/cover;
     padding: 60px 40px;
     color: var(--white);
     min-height: 680px;
@@ -128,7 +128,7 @@ nav ul li a {
 
 @media (max-width: 1024px) {
     .hero {
-        background: url('../assets/bg-portada.jpg') no-repeat center center/cover;
+        background: url('../assets/bg-portada-vide.mp4') no-repeat center center/cover;
     }
 }
 
@@ -281,13 +281,41 @@ nav ul li a {
   
   padding: 12px 16px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-weight: bold;
   
 }
 
+.card-body {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 1s cubic-bezier(0.4,0,0.2,1),
+    opacity 1s cubic-bezier(0.4,0,0.2,1),
+    padding 1s cubic-bezier(0.4,0,0.2,1);
+  padding: 0 16px;
+}
 
+.card-body p {
+  margin: 10px 0;
+}
+
+.expandable.open .card-body {
+  max-height: 500px; 
+  opacity: 1;
+  padding: 16px;
+  transition:
+    max-height 1s cubic-bezier(0.4,0,0.2,1),
+    opacity 1s cubic-bezier(0.4,0,0.2,1),
+    padding 1s cubic-bezier(0.4,0,0.2,1);
+}
+
+.expandable.open .card-header .arrow {
+  transform: rotate(180deg);
+  transition: transform 0.4s ease-in-out;
+}
 
 
 
