@@ -614,18 +614,26 @@ nav ul li a {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 848px) {
     .promo-banner h2 {
         font-size: 1.3rem;
     }
     .sostenibilidad-content h1 {
         font-size: 2rem;
     }
+
+    .sostenibilidad {
+      background-position: 80% 50%;
+    }
 }
 
 @media (max-width: 480px) {
     .sostenibilidad-content h1 {
         font-size: 1.6rem;
+    }
+
+    .sostenibilidad {
+      background-position: 80% 50%;
     }
 }
 
