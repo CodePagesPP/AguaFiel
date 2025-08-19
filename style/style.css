@@ -147,8 +147,9 @@ nav ul li a {
   z-index: 0;
 }
 
-@media (max-width: 1024px) {
-    .hero {
+@media (min-width: 1600px) {
+    .hero-video {
+      object-fit: fill;
     }
 }
 
