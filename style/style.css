@@ -3,7 +3,7 @@
 
 html {
   scroll-behavior: smooth;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .hanken-grotesk {
@@ -447,17 +447,50 @@ nav ul li a {
 }
 
 .delivery-card {
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  background: transparent;
+}
+
+.delivery-image-wrapper {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  height: 280px;
 }
+
+.delivery-image-wrapper img {
+  width: 100%;
+  height: 280px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+
 
 .delivery-card img {
   width: 100%;
-  height: 100%;
+  height: 280px; 
   display: block;
+  object-fit: cover;
   transition: transform 0.3s ease;
+}
+
+.delivery-email {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.delivery-email a {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.delivery-email a:hover {
+  text-decoration: underline;
 }
 
 .delivery-card:hover img {
@@ -477,7 +510,6 @@ nav ul li a {
   padding: 15px;
   font-size: 1.2rem;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .overlay .icon {
@@ -675,6 +707,12 @@ nav ul li a {
     }
    
 }
+
+.delivery-card-ubi { position: relative; overflow: hidden; border-radius: 8px; height: 280px; } 
+.delivery-card-ubi img { width: 100%; height: 100%; display: block; transition: transform 0.3s ease; } 
+.delivery-card-ubi:hover img { transform: scale(1.05); } 
+.overlay-ubi { position: absolute; bottom: 0; width: 100%; background-color: rgba(255, 255, 255, 0.6); color: var(--blue); font-weight: bold; display: flex; justify-content: space-between; align-items: center; padding: 15px; font-size: 1.2rem; cursor: pointer; text-decoration: none; } 
+.overlay-ubi .icon { border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; } .overlay .icon i{ color: var(--blue); }
 
 /*Experiencias*/
 .experiencias {
