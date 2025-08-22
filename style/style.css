@@ -133,39 +133,29 @@ nav ul li a {
 
 /* PORTADAAA */
 .hero {
-    padding: 60px 40px;
-    color: var(--white);
-    min-height: 720px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+    min-height: 650px;
     position: relative;
- 
+    overflow: hidden;
 }
 
 
-.hero-video {
+.hero-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* animación suave */
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
+.hero-image.active {
+  opacity: 1;
 }
 
 @media (min-width: 1600px) {
-    .hero-video {
+    .hero-image {
       object-fit: fill;
     }
 }
@@ -684,7 +674,7 @@ nav ul li a {
       background-position: 80% 50%;
     }
 
-    .hero-video {
+    .hero-image {
       object-position: left;
     }
 }
