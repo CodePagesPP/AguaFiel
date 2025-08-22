@@ -2,3 +2,14 @@
 document.getElementById("menu-toggle").addEventListener("click", function() {
     document.getElementById("navbar").classList.toggle("active");
 });
+
+    window.addEventListener('scroll', function() {
+        const header = document.getElementById('inicio');
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition > 0) { 
+            header.classList.add('header-background');
+        } else { 
+            header.classList.remove('header-background');
+        }
+    });

@@ -13,6 +13,7 @@ html {
   font-style: normal;
 }
 
+
 :root{
     --white: #fff;
     --sky: #008EC0;
@@ -34,7 +35,22 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    background: var(--sky);
+   background-color: transparent;
+   position: fixed;
+   z-index: 1000;
+   width: 100%;
+}
+
+.header-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+   
+   position: fixed;
+   z-index: 1000;
+   background-color: var(--sky);
+  
 }
 
 .menu-toggle {
@@ -124,6 +140,7 @@ nav ul li a {
     align-items: center;
     justify-content: end;
     position: relative;
+ 
 }
 
 
