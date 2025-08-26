@@ -439,6 +439,43 @@ nav ul li a {
   margin-bottom: 15px;
 }
 
+.delivery-quejas {
+  color: var(--white); 
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.quejas{
+  margin-top: 40px;
+}
+
+.btn-outline-quejas {
+  display: inline-block;
+  padding: 8px 15px;
+  border: 2px solid var(--red);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 250px;
+  cursor: pointer;
+  background: white;
+}
+
+.btn-outline-quejas .card-header{
+  text-decoration: none;
+  color: var(--black);
+}
+
+.btn-outline-quejas:hover {
+
+  background-color: var(--red);
+  color: white;
+  transform: scale(1.05);
+}
+
 .delivery-text {
   color: var(--white);
   font-size: 1rem;
