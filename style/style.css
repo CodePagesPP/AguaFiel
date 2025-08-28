@@ -274,7 +274,6 @@ nav ul li a {
 }
 
 .img-prods {
-  padding-top: 50px;
   padding-right: 30px;
 }
 
@@ -295,6 +294,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   border-left: 1px solid black;
+  gap: 20px;
 }
 
 .about-right .card:last-child{
@@ -351,6 +351,7 @@ nav ul li a {
   display: flex;
   flex-direction: column; 
   align-items: center;
+  gap: 20px;
 }
 
 .card img {
@@ -394,22 +395,23 @@ nav ul li a {
   .about {
     grid-template-columns: 1fr;
     text-align: center;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
     gap: 10px;
   }
+
   .about-right {
     grid-template-columns: 1fr;
   }
 
   .img-prods img{
-    max-width: 300px;
+    max-width: 400px;
   }
 
   .img-prods {
     padding: 0;
-    padding-top: 60px;
     padding-bottom: 40px;
     border-bottom: 1px solid black;
   }
