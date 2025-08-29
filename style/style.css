@@ -39,6 +39,7 @@ header {
    position: fixed;
    z-index: 1000;
    width: 100%;
+   transition: all 300ms ease;
 }
 
 .header-background {
@@ -133,7 +134,7 @@ nav ul li a {
 
 /* PORTADAAA */
 .hero {
-    min-height: 650px;
+    min-height: 800px;
     position: relative;
     overflow: hidden;
 }
